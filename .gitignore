@@ -1,0 +1,11 @@
+# Datos privados — no subir al repo público
+AffiliateLinks-DBINT-FINAL.csv
+kycxlosers-briefing.md
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+*.swp
+*.swo
