@@ -118,6 +118,10 @@ table {
   padding: 28px;
 }
 
+.h1-accent {
+  font-style: italic;
+}
+
 .layout p,
 .layout .content-block {
   max-width: var(--content-width);
