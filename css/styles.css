@@ -403,12 +403,6 @@ tr:nth-child(3) .col-rank {
   font-family: var(--font-body);
 }
 
-.casino-name {
-  font-weight: 700;
-  font-size: 14px;
-  color: var(--text-primary);
-  line-height: 1.3;
-}
 
 .casino-rating,
 .casino-stars {
@@ -529,6 +523,35 @@ tr:nth-child(3) .col-rank {
   background-color: var(--bg-soft);
 }
 
+/* Banner image at top of card */
+.casino-card-banner {
+  position: relative;
+  margin: -20px -20px 16px;
+  height: 150px;
+  background: #0d1117;
+  overflow: hidden;
+}
+
+.casino-banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.casino-banner-rank {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #f5c518;
+  color: #1a1a1a;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 4px 10px;
+  border-radius: 3px;
+  letter-spacing: 0.03em;
+}
+
 .casino-card-header {
   display: flex;
   align-items: center;
@@ -552,6 +575,20 @@ tr:nth-child(3) .col-rank {
 .casino-card:nth-child(1) .casino-card-rank { color: var(--rank-red); border-color: var(--rank-red); }
 .casino-card:nth-child(2) .casino-card-rank { color: #e68a1a; border-color: #e68a1a; }
 .casino-card:nth-child(3) .casino-card-rank { color: var(--gold); border-color: var(--gold); }
+
+.verified-label {
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.casino-name {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--text-primary);
+  line-height: 1.3;
+  display: block;
+  margin-bottom: 2px;
+}
 
 .casino-card-desc {
   font-size: 14px;
