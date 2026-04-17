@@ -1012,6 +1012,8 @@ h1 em {
   color: var(--text-body);
   margin-bottom: 16px;
   max-width: var(--content-width);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content-section p strong {
@@ -1058,7 +1060,7 @@ h1 em {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
-  margin: 20px 0 28px;
+  margin: 20px auto 28px;
   max-width: var(--content-width);
 }
 
