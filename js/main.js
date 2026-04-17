@@ -16,4 +16,20 @@
       btn.textContent = 'MEN\u00DA';
     }
   });
+
+  // Country selector
+  const cs = document.getElementById('country-selector');
+  if (cs) {
+    const csBtn = cs.querySelector('.country-btn');
+    csBtn.addEventListener('click', () => {
+      cs.classList.toggle('open');
+      csBtn.setAttribute('aria-expanded', cs.classList.contains('open'));
+    });
+    document.addEventListener('click', (e) => {
+      if (!cs.contains(e.target)) {
+        cs.classList.remove('open');
+        csBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
 })();

@@ -61,12 +61,26 @@
       <nav class="main-nav" aria-label="Navegación principal">
         <a href="/" class="nav-link" aria-current="page">Casinos sin KYC</a>
         <a href="/casas-de-apuestas-sin-kyc/" class="nav-link">Casas de apuestas sin KYC</a>
+        <div class="country-selector" id="country-selector">
+          <button class="country-btn" aria-expanded="false" aria-controls="country-dropdown">
+            <span class="country-flag">🇪🇸</span>
+            <span class="country-arrow">▼</span>
+          </button>
+          <div class="country-dropdown" id="country-dropdown">
+            <a href="/" class="country-option active">🇪🇸 España</a>
+            <a href="/colombia/" class="country-option">🇨🇴 Colombia</a>
+          </div>
+        </div>
       </nav>
       <button id="menu-btn" class="menu-toggle" aria-expanded="false" aria-controls="menu-overlay">MENÚ</button>
     </div>
     <div id="menu-overlay" class="mobile-nav-overlay">
       <a href="/" class="nav-link" aria-current="page">Casinos sin KYC</a>
       <a href="/casas-de-apuestas-sin-kyc/" class="nav-link">Casas de apuestas sin KYC</a>
+      <div class="mobile-country-list">
+        <a href="/" class="mobile-country-link active" title="España">🇪🇸</a>
+        <a href="/colombia/" class="mobile-country-link" title="Colombia">🇨🇴</a>
+      </div>
     </div>
   </header>
 

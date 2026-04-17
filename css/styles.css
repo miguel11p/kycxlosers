@@ -222,6 +222,107 @@ table {
   border-bottom: 2px solid var(--cta-green);
 }
 
+/* Country selector */
+.country-selector {
+  position: relative;
+  margin-left: 8px;
+}
+
+.country-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #b8bbb6;
+  padding: 5px 10px;
+  border-radius: var(--radius-sm);
+  transition: color 0.2s ease, background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.country-btn:hover {
+  color: var(--text-on-dark);
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.country-flag {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.country-arrow {
+  font-size: 9px;
+  transition: transform 0.2s ease;
+}
+
+.country-selector.open .country-arrow {
+  transform: rotate(180deg);
+}
+
+.country-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  background-color: var(--bg-header);
+  border: 1px solid var(--border-dark);
+  border-radius: var(--radius-sm);
+  min-width: 170px;
+  padding: 6px 0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  z-index: 1001;
+}
+
+.country-selector.open .country-dropdown {
+  display: block;
+}
+
+.country-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #b8bbb6;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.country-option:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+  color: var(--text-on-dark);
+}
+
+.country-option.active {
+  color: var(--cta-green);
+}
+
+/* Mobile country selector */
+.mobile-country-list {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  padding-top: 12px;
+  margin-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.mobile-country-link {
+  font-size: 18px;
+  padding: 4px 6px;
+  border-radius: var(--radius-sm);
+  transition: background-color 0.15s ease;
+}
+
+.mobile-country-link:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+.mobile-country-link.active {
+  background-color: rgba(30, 196, 107, 0.12);
+}
+
 /* Mobile hamburger */
 .menu-toggle {
   display: none;
