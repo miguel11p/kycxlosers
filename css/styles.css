@@ -510,13 +510,15 @@ tr:nth-child(3) .col-rank {
 
 .casino-card {
   background-color: var(--bg-white);
-  border-bottom: 1px solid var(--border-light);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
   padding: 20px 20px 18px;
   transition: background-color 0.15s ease;
+  margin-bottom: 12px;
 }
 
 .casino-card:last-child {
-  border-bottom: none;
+  margin-bottom: 0;
 }
 
 .casino-card:hover {
@@ -530,6 +532,7 @@ tr:nth-child(3) .col-rank {
   height: 150px;
   background: #0d1117;
   overflow: hidden;
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
 }
 
 .casino-banner-img {
@@ -540,9 +543,7 @@ tr:nth-child(3) .col-rank {
 }
 
 .casino-banner-rank {
-  position: absolute;
-  top: 10px;
-  right: 10px;
+  display: inline-block;
   background: #f5c518;
   color: #1a1a1a;
   font-size: 11px;
@@ -550,6 +551,8 @@ tr:nth-child(3) .col-rank {
   padding: 4px 10px;
   border-radius: 3px;
   letter-spacing: 0.03em;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .casino-card-header {
