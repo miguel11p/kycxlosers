@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 160" width="760" height="160">
+  <defs>
+    <linearGradient id="bg-qa" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#111111"/>
+      <stop offset="100%" stop-color="#1e1e1e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="760" height="160" fill="url(#bg-qa)" rx="8"/>
+
+  <!-- Red accent left bar -->
+  <rect x="0" y="0" width="5" height="160" fill="#c8102e" rx="3"/>
+
+  <!-- Football icon -->
+  <g transform="translate(44, 30)">
+    <circle cx="48" cy="50" r="46" fill="none" stroke="#c8102e" stroke-width="3"/>
+    <!-- Pentagon pattern on football -->
+    <polygon points="48,20 62,32 57,49 39,49 34,32" fill="none" stroke="#c8102e" stroke-width="2"/>
+    <line x1="48" y1="20" x2="48" y2="4" stroke="#c8102e" stroke-width="1.5" opacity="0.5"/>
+    <line x1="62" y1="32" x2="76" y2="28" stroke="#c8102e" stroke-width="1.5" opacity="0.5"/>
+    <line x1="57" y1="49" x2="68" y2="60" stroke="#c8102e" stroke-width="1.5" opacity="0.5"/>
+    <line x1="39" y1="49" x2="28" y2="60" stroke="#c8102e" stroke-width="1.5" opacity="0.5"/>
+    <line x1="34" y1="32" x2="20" y2="28" stroke="#c8102e" stroke-width="1.5" opacity="0.5"/>
+  </g>
+
+  <!-- Cross-out document icon -->
+  <g transform="translate(162, 38)">
+    <rect x="0" y="0" width="56" height="70" rx="4" fill="none" stroke="#555" stroke-width="2"/>
+    <line x1="10" y1="20" x2="46" y2="20" stroke="#555" stroke-width="2"/>
+    <line x1="10" y1="32" x2="46" y2="32" stroke="#555" stroke-width="2"/>
+    <line x1="10" y1="44" x2="30" y2="44" stroke="#555" stroke-width="2"/>
+    <!-- Red X cross -->
+    <line x1="8" y1="8" x2="64" y2="74" stroke="#c8102e" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="64" y1="8" x2="8" y2="74" stroke="#c8102e" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Text block -->
+  <text x="292" y="60" font-family="'Barlow Condensed', Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff" letter-spacing="0.5">¿Qué es una casa de apuestas sin KYC?</text>
+  <text x="292" y="89" font-family="'Barlow Condensed', Arial, sans-serif" font-size="15" fill="#aaaaaa">Sin DNI · Sin verificación de identidad · Sin trámites</text>
+  <text x="292" y="115" font-family="'Barlow Condensed', Arial, sans-serif" font-size="14" fill="#666666">Plataformas que respetan tu privacidad y permiten apostar sin documentación</text>
+
+  <!-- Decorative dots -->
+  <circle cx="710" cy="40" r="3" fill="#c8102e" opacity="0.6"/>
+  <circle cx="725" cy="55" r="5" fill="#c8102e" opacity="0.3"/>
+  <circle cx="740" cy="35" r="2" fill="#c8102e" opacity="0.5"/>
+  <circle cx="720" cy="75" r="4" fill="#c8102e" opacity="0.2"/>
+  <circle cx="748" cy="65" r="6" fill="#c8102e" opacity="0.15"/>
+</svg>
