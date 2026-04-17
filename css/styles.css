@@ -505,6 +505,132 @@ tr:nth-child(3) .col-rank {
   text-align: center;
 }
 
+/* --------------------------------------------------------------------------
+   Casino Cards List
+   -------------------------------------------------------------------------- */
+
+.casino-cards-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.casino-card {
+  background-color: var(--bg-white);
+  border-bottom: 1px solid var(--border-light);
+  padding: 20px 20px 18px;
+  transition: background-color 0.15s ease;
+}
+
+.casino-card:last-child {
+  border-bottom: none;
+}
+
+.casino-card:hover {
+  background-color: var(--bg-soft);
+}
+
+.casino-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.casino-card-rank {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-muted);
+  background-color: var(--bg-soft);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  padding: 3px 10px;
+  line-height: 1.4;
+  flex-shrink: 0;
+}
+
+.casino-card:nth-child(1) .casino-card-rank { color: var(--rank-red); border-color: var(--rank-red); }
+.casino-card:nth-child(2) .casino-card-rank { color: #e68a1a; border-color: #e68a1a; }
+.casino-card:nth-child(3) .casino-card-rank { color: var(--gold); border-color: var(--gold); }
+
+.casino-card-desc {
+  font-size: 14px;
+  color: var(--text-body);
+  line-height: 1.65;
+  margin-bottom: 13px;
+}
+
+.casino-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.tag-bonus {
+  background-color: #e8f9ef;
+  border: 1px solid #a8e6c0;
+  color: #1a7a45;
+  padding: 4px 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.casino-card-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  margin-bottom: 16px;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background-color: var(--border-light);
+}
+
+.stat-item {
+  background-color: var(--bg-soft);
+  text-align: center;
+  padding: 10px 8px;
+}
+
+.stat-label {
+  display: block;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+
+.stat-value {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.casino-card-footer {
+  text-align: center;
+}
+
+.btn-cta-full {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 13px 20px;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+  .casino-card-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /* Comparison table responsive */
 @media (max-width: 768px) {
   .col-features {
