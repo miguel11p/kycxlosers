@@ -839,7 +839,7 @@ h1 em {
    -------------------------------------------------------------------------- */
 
 .intro-paragraph {
-  margin: 24px 0 32px;
+  margin: 24px auto 32px;
   max-width: 800px;
 }
 
@@ -856,8 +856,18 @@ h1 em {
 }
 
 .intro-paragraph strong {
-  color: #c8102e;
+  color: inherit;
   font-weight: 700;
+}
+
+/* Section header images */
+.section-img {
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  margin: 0 0 20px 0;
+  border-radius: 8px;
 }
 
 .intro-text {
