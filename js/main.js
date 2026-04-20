@@ -33,3 +33,26 @@
     });
   }
 })();
+
+// Dynamic date — updates .meta-date to today in the page language
+(() => {
+  const el = document.querySelector('.meta-date');
+  if (!el) return;
+
+  const lang = document.documentElement.lang || 'es';
+  const now = new Date();
+
+  const prefixes = {
+    es: 'Actualizado',
+    fr: 'Mis à jour le',
+    de: 'Aktualisiert am',
+    en: 'Updated',
+    it: 'Aggiornato il',
+  };
+
+  const prefix = prefixes[lang] || prefixes['es'];
+  const locale = { es: 'es-ES', fr: 'fr-FR', de: 'de-DE', en: 'en-GB', it: 'it-IT' }[lang] || 'es-ES';
+
+  const formatted = now.toLocaleDateString(locale, { day: 'numeric', month: 'short', year: 'numeric' });
+  el.textContent = `${prefix} ${formatted}`;
+})();
