@@ -1,8 +1,4 @@
 User-agent: *
 Allow: /
 
-Disallow: /assets/
-Disallow: /css/
-Disallow: /js/
-
 Sitemap: https://kycxlosers.com/sitemap.xml

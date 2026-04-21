@@ -1,53 +1,333 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ==================== HOMEPAGE GROUP ==================== -->
+
+  <!-- ES (default / x-default) -->
   <url>
     <loc>https://kycxlosers.com/</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kycxlosers.com/" />
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://kycxlosers.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://kycxlosers.com/co/" />
+    <xhtml:link rel="alternate" hreflang="es-EC" href="https://kycxlosers.com/ec/" />
+    <xhtml:link rel="alternate" hreflang="es-PE" href="https://kycxlosers.com/pe/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kycxlosers.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kycxlosers.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kycxlosers.com/de/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://kycxlosers.com/it/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kycxlosers.com/" />
   </url>
+
+  <!-- AR -->
+  <url>
+    <loc>https://kycxlosers.com/ar/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kycxlosers.com/" />
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://kycxlosers.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://kycxlosers.com/co/" />
+    <xhtml:link rel="alternate" hreflang="es-EC" href="https://kycxlosers.com/ec/" />
+    <xhtml:link rel="alternate" hreflang="es-PE" href="https://kycxlosers.com/pe/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kycxlosers.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kycxlosers.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kycxlosers.com/de/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://kycxlosers.com/it/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kycxlosers.com/" />
+  </url>
+
+  <!-- CO -->
+  <url>
+    <loc>https://kycxlosers.com/co/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kycxlosers.com/" />
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://kycxlosers.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://kycxlosers.com/co/" />
+    <xhtml:link rel="alternate" hreflang="es-EC" href="https://kycxlosers.com/ec/" />
+    <xhtml:link rel="alternate" hreflang="es-PE" href="https://kycxlosers.com/pe/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kycxlosers.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kycxlosers.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kycxlosers.com/de/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://kycxlosers.com/it/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kycxlosers.com/" />
+  </url>
+
+  <!-- EC -->
+  <url>
+    <loc>https://kycxlosers.com/ec/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kycxlosers.com/" />
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://kycxlosers.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://kycxlosers.com/co/" />
+    <xhtml:link rel="alternate" hreflang="es-EC" href="https://kycxlosers.com/ec/" />
+    <xhtml:link rel="alternate" hreflang="es-PE" href="https://kycxlosers.com/pe/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kycxlosers.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kycxlosers.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kycxlosers.com/de/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://kycxlosers.com/it/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kycxlosers.com/" />
+  </url>
+
+  <!-- PE -->
+  <url>
+    <loc>https://kycxlosers.com/pe/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kycxlosers.com/" />
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://kycxlosers.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://kycxlosers.com/co/" />
+    <xhtml:link rel="alternate" hreflang="es-EC" href="https://kycxlosers.com/ec/" />
+    <xhtml:link rel="alternate" hreflang="es-PE" href="https://kycxlosers.com/pe/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kycxlosers.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kycxlosers.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kycxlosers.com/de/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://kycxlosers.com/it/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kycxlosers.com/" />
+  </url>
+
+  <!-- EN -->
+  <url>
+    <loc>https://kycxlosers.com/en/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kycxlosers.com/" />
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://kycxlosers.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://kycxlosers.com/co/" />
+    <xhtml:link rel="alternate" hreflang="es-EC" href="https://kycxlosers.com/ec/" />
+    <xhtml:link rel="alternate" hreflang="es-PE" href="https://kycxlosers.com/pe/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kycxlosers.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kycxlosers.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kycxlosers.com/de/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://kycxlosers.com/it/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kycxlosers.com/" />
+  </url>
+
+  <!-- FR -->
+  <url>
+    <loc>https://kycxlosers.com/fr/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kycxlosers.com/" />
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://kycxlosers.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://kycxlosers.com/co/" />
+    <xhtml:link rel="alternate" hreflang="es-EC" href="https://kycxlosers.com/ec/" />
+    <xhtml:link rel="alternate" hreflang="es-PE" href="https://kycxlosers.com/pe/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kycxlosers.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kycxlosers.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kycxlosers.com/de/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://kycxlosers.com/it/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kycxlosers.com/" />
+  </url>
+
+  <!-- DE -->
+  <url>
+    <loc>https://kycxlosers.com/de/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kycxlosers.com/" />
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://kycxlosers.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://kycxlosers.com/co/" />
+    <xhtml:link rel="alternate" hreflang="es-EC" href="https://kycxlosers.com/ec/" />
+    <xhtml:link rel="alternate" hreflang="es-PE" href="https://kycxlosers.com/pe/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kycxlosers.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kycxlosers.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kycxlosers.com/de/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://kycxlosers.com/it/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kycxlosers.com/" />
+  </url>
+
+  <!-- IT -->
+  <url>
+    <loc>https://kycxlosers.com/it/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kycxlosers.com/" />
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://kycxlosers.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://kycxlosers.com/co/" />
+    <xhtml:link rel="alternate" hreflang="es-EC" href="https://kycxlosers.com/ec/" />
+    <xhtml:link rel="alternate" hreflang="es-PE" href="https://kycxlosers.com/pe/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kycxlosers.com/en/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kycxlosers.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kycxlosers.com/de/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://kycxlosers.com/it/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kycxlosers.com/" />
+  </url>
+
+  <!-- ==================== BETTING PAGES GROUP ==================== -->
+
+  <!-- ES betting (default / x-default) -->
   <url>
     <loc>https://kycxlosers.com/casas-de-apuestas-sin-kyc/</loc>
-    <lastmod>2026-04-17</lastmod>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kycxlosers.com/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://kycxlosers.com/ar/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://kycxlosers.com/co/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-EC" href="https://kycxlosers.com/ec/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-PE" href="https://kycxlosers.com/pe/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kycxlosers.com/en/no-kyc-betting-sites/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kycxlosers.com/fr/paris-sportifs-sans-kyc/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kycxlosers.com/de/sportwetten-ohne-kyc/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://kycxlosers.com/it/scommesse-senza-kyc/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kycxlosers.com/casas-de-apuestas-sin-kyc/" />
   </url>
+
+  <!-- AR betting -->
   <url>
-    <loc>https://kycxlosers.com/colombia/</loc>
-    <lastmod>2026-04-17</lastmod>
-    <priority>0.8</priority>
+    <loc>https://kycxlosers.com/ar/casas-de-apuestas-sin-kyc/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kycxlosers.com/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://kycxlosers.com/ar/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://kycxlosers.com/co/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-EC" href="https://kycxlosers.com/ec/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-PE" href="https://kycxlosers.com/pe/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kycxlosers.com/en/no-kyc-betting-sites/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kycxlosers.com/fr/paris-sportifs-sans-kyc/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kycxlosers.com/de/sportwetten-ohne-kyc/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://kycxlosers.com/it/scommesse-senza-kyc/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kycxlosers.com/casas-de-apuestas-sin-kyc/" />
   </url>
+
+  <!-- CO betting -->
   <url>
-    <loc>https://kycxlosers.com/colombia/casas-de-apuestas-sin-kyc/</loc>
-    <lastmod>2026-04-17</lastmod>
-    <priority>0.8</priority>
+    <loc>https://kycxlosers.com/co/casas-de-apuestas-sin-kyc/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kycxlosers.com/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://kycxlosers.com/ar/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://kycxlosers.com/co/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-EC" href="https://kycxlosers.com/ec/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-PE" href="https://kycxlosers.com/pe/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kycxlosers.com/en/no-kyc-betting-sites/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kycxlosers.com/fr/paris-sportifs-sans-kyc/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kycxlosers.com/de/sportwetten-ohne-kyc/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://kycxlosers.com/it/scommesse-senza-kyc/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kycxlosers.com/casas-de-apuestas-sin-kyc/" />
   </url>
+
+  <!-- EC betting -->
   <url>
-    <loc>https://kycxlosers.com/ecuador/</loc>
-    <lastmod>2026-04-17</lastmod>
-    <priority>0.8</priority>
+    <loc>https://kycxlosers.com/ec/casas-de-apuestas-sin-kyc/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kycxlosers.com/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://kycxlosers.com/ar/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://kycxlosers.com/co/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-EC" href="https://kycxlosers.com/ec/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-PE" href="https://kycxlosers.com/pe/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kycxlosers.com/en/no-kyc-betting-sites/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kycxlosers.com/fr/paris-sportifs-sans-kyc/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kycxlosers.com/de/sportwetten-ohne-kyc/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://kycxlosers.com/it/scommesse-senza-kyc/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kycxlosers.com/casas-de-apuestas-sin-kyc/" />
   </url>
+
+  <!-- PE betting -->
   <url>
-    <loc>https://kycxlosers.com/ecuador/casas-de-apuestas-sin-kyc/</loc>
-    <lastmod>2026-04-17</lastmod>
-    <priority>0.8</priority>
+    <loc>https://kycxlosers.com/pe/casas-de-apuestas-sin-kyc/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kycxlosers.com/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://kycxlosers.com/ar/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://kycxlosers.com/co/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-EC" href="https://kycxlosers.com/ec/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-PE" href="https://kycxlosers.com/pe/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kycxlosers.com/en/no-kyc-betting-sites/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kycxlosers.com/fr/paris-sportifs-sans-kyc/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kycxlosers.com/de/sportwetten-ohne-kyc/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://kycxlosers.com/it/scommesse-senza-kyc/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kycxlosers.com/casas-de-apuestas-sin-kyc/" />
   </url>
+
+  <!-- EN betting -->
   <url>
-    <loc>https://kycxlosers.com/argentina/</loc>
-    <lastmod>2026-04-17</lastmod>
-    <priority>0.8</priority>
+    <loc>https://kycxlosers.com/en/no-kyc-betting-sites/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kycxlosers.com/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://kycxlosers.com/ar/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://kycxlosers.com/co/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-EC" href="https://kycxlosers.com/ec/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-PE" href="https://kycxlosers.com/pe/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kycxlosers.com/en/no-kyc-betting-sites/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kycxlosers.com/fr/paris-sportifs-sans-kyc/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kycxlosers.com/de/sportwetten-ohne-kyc/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://kycxlosers.com/it/scommesse-senza-kyc/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kycxlosers.com/casas-de-apuestas-sin-kyc/" />
   </url>
+
+  <!-- FR betting -->
   <url>
-    <loc>https://kycxlosers.com/argentina/casas-de-apuestas-sin-kyc/</loc>
-    <lastmod>2026-04-17</lastmod>
-    <priority>0.8</priority>
+    <loc>https://kycxlosers.com/fr/paris-sportifs-sans-kyc/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kycxlosers.com/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://kycxlosers.com/ar/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://kycxlosers.com/co/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-EC" href="https://kycxlosers.com/ec/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-PE" href="https://kycxlosers.com/pe/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kycxlosers.com/en/no-kyc-betting-sites/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kycxlosers.com/fr/paris-sportifs-sans-kyc/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kycxlosers.com/de/sportwetten-ohne-kyc/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://kycxlosers.com/it/scommesse-senza-kyc/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kycxlosers.com/casas-de-apuestas-sin-kyc/" />
   </url>
+
+  <!-- DE betting -->
   <url>
-    <loc>https://kycxlosers.com/peru/</loc>
-    <lastmod>2026-04-17</lastmod>
-    <priority>0.8</priority>
+    <loc>https://kycxlosers.com/de/sportwetten-ohne-kyc/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kycxlosers.com/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://kycxlosers.com/ar/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://kycxlosers.com/co/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-EC" href="https://kycxlosers.com/ec/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-PE" href="https://kycxlosers.com/pe/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kycxlosers.com/en/no-kyc-betting-sites/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kycxlosers.com/fr/paris-sportifs-sans-kyc/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kycxlosers.com/de/sportwetten-ohne-kyc/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://kycxlosers.com/it/scommesse-senza-kyc/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kycxlosers.com/casas-de-apuestas-sin-kyc/" />
   </url>
+
+  <!-- IT betting -->
   <url>
-    <loc>https://kycxlosers.com/peru/casas-de-apuestas-sin-kyc/</loc>
-    <lastmod>2026-04-17</lastmod>
-    <priority>0.8</priority>
+    <loc>https://kycxlosers.com/it/scommesse-senza-kyc/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://kycxlosers.com/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-AR" href="https://kycxlosers.com/ar/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-CO" href="https://kycxlosers.com/co/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-EC" href="https://kycxlosers.com/ec/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="es-PE" href="https://kycxlosers.com/pe/casas-de-apuestas-sin-kyc/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://kycxlosers.com/en/no-kyc-betting-sites/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://kycxlosers.com/fr/paris-sportifs-sans-kyc/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://kycxlosers.com/de/sportwetten-ohne-kyc/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://kycxlosers.com/it/scommesse-senza-kyc/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kycxlosers.com/casas-de-apuestas-sin-kyc/" />
   </url>
+
 </urlset>
